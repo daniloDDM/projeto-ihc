@@ -36,7 +36,7 @@ Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
 
 ## Desenvolvimento
 - [Análise de Concorência](docs/concorrencia.md)
-- [Personas](docs/3_personas.md)
+- [Personas](docs/personas.md)
 - [Cenário de Análise/Problema](docs/4_cenarios.md)
 - [Análide de Tarefas](docs/5_analise_tarefas.md)
 - [Prototipação em Papel](docs/6_prototipacao.md)
