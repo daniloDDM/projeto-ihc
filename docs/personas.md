@@ -11,4 +11,6 @@
 	- observa a tela de dashboard(?)
 
 -- Caso o aluno possua alguma interação com a plataforma, ele se torna uma persona primária. <br>
--- Se a interação é restrita a apenas o professor e o aluno não tem contato direto com o sistema, então continua secundário.
+-- Se a interação é restrita a apenas o professor e o aluno não tem contato direto com o sistema, então continua secundário. <br>
+-- é preciso definir melhor a finalidade de cada tela <br>
+-- prompt -> professores e corretores; dashboard -> ??
