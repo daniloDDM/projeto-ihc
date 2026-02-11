@@ -22,8 +22,11 @@ Roberto é um professor com mais de 20 anos de experiência. Ele é tecnologicam
 * Frustração com a subjetividade inerente à correção manual de centenas de textos.
 * Pressão por prazos curtos de entrega das notas.
 
-### 1. Jornada do Professor (Roberto)
-Com o objetivo de corrigir um grande volume de provas com agilidade e equidade, Roberto inicia sua interação fazendo o upload dos arquivos digitalizados no QuestIA. Enquanto o sistema processa e sugere as notas, ele pensa na responsabilidade de manter o mesmo critério para todos os alunos ("Preciso ser justo, mas o cansaço atrapalha"). Ao validar as correções assistidas pela IA, seu sentimento inicial de ansiedade pela sobrecarga de trabalho dá lugar ao alívio e controle, culminando em satisfação ao visualizar no dashboard que manteve a consistência das notas do início ao fim do lote.
+### 1. A Jornada do Professor Roberto:
+É um sábado à tarde e Roberto encara a tela do computador com um misto de resignação e cansaço. Diante dele, uma pasta digital contendo 60 provas dissertativas de "Engenharia de Software". No método tradicional, ele abriria arquivo por arquivo, leria textos manuscritos muitas vezes ilegíveis, anotaria a nota em uma planilha separada e repetiria o processo até a exaustão. Sua principal motivação para mudar esse processo não é apenas a velocidade, mas o medo da **injustiça**: ele se pergunta constantemente se será tão rigoroso com a prova nº 50 quanto foi com a nº 1, sabendo que sua atenção cai drasticamente após horas de leitura.
+
+Roberto decide então utilizar o **QuestIA**. Ao carregar o lote de provas, o sistema processa as respostas usando algoritmos de NLP (Processamento de Linguagem Natural). Em vez de uma tela em branco, ele vê a resposta do aluno já analisada: os termos técnicos essenciais estão destacados em verde e as fugas ao tema em vermelho. A ferramenta sugere uma nota preliminar baseada nos critérios que ele mesmo configurou. Roberto sente-se no controle: ele ajusta a nota de um aluno que usou um sinônimo criativo que a IA não captou, mas aceita a sugestão da maioria. Quando o sistema emite um alerta de que sua média de notas está caindo em relação ao início do dia, ele percebe sua própria fadiga. Graças ao dashboard estratégico, ele pausa, toma um café e retorna para recalibrar as últimas correções, terminando o trabalho na metade do tempo e com a certeza de que garantiu a equidade para a turma inteira.
+
 
 ### Mapa de Empatia: Roberto
 
@@ -57,8 +60,11 @@ Beatriz está prestes a se formar e sabe que a nota do ENADE impacta a avaliaç�
 * Falta de transparência nos critérios de correção das bancas examinadoras.
 * Demora excessiva para receber a correção de simulados tradicionais.
 
-### 2. Jornada do Aluno (Beatriz)
-Beatriz acessa o modo de simulado com o objetivo de validar seu conhecimento técnico e reduzir a insegurança pré-prova. Sua ação consiste em redigir e submeter uma resposta dissertativa, momento em que a tensão é alta e ela pensa: "Será que usei os termos técnicos que a banca exige?". Ao receber o feedback instantâneo comparando sua resposta com o espelho da banca, sua emoção transita da frustração inicial para a clareza, motivando-a a reescrever o texto para fixar o aprendizado.
+### 2. A Jornada da Aluna Beatriz:
+Faltam duas semanas para o ENADE e Beatriz está na biblioteca, cercada de livros. Ela domina a programação prática, mas sente insegurança nas questões dissertativas, pois tem dificuldade em traduzir seu conhecimento para o "jeitês acadêmico" exigido pela banca. Nos simulados tradicionais, ela escreve a resposta no papel e compara com o gabarito oficial, mas continua perdida: sua resposta parece correta, mas não é idêntica à do espelho. Sua motivação para usar o **QuestIA** é a necessidade de **assertividade** e feedback imediato, pois ela não tem tempo a perder esperando dias pela correção de um professor humano.
+
+Ao acessar o modo de simulado do QuestIA, Beatriz seleciona uma questão antiga sobre "Normalização de Banco de Dados" e digita sua resposta. Ao clicar em "Avaliar", o feedback é instantâneo. O sistema não apenas atribui uma nota (6.0), mas explica o porquê: *"Você explicou o conceito corretamente, mas não citou o termo 'Dependência Funcional', que era obrigatório nesta questão."*. A frustração inicial de Beatriz se transforma rapidamente em clareza. Ela entende o padrão esperado pela banca. Imediatamente, ela reescreve a resposta inserindo o termo técnico e vê sua nota subir para 10.0. O QuestIA atua como um treinador pessoal, ensinando a linguagem técnica necessária e transformando sua ansiedade pré-prova em confiança.
+
 
 ### Mapa de Empatia: Beatriz
 
