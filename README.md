@@ -23,7 +23,17 @@ Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
     Velocidade nas correções e maior assertividade.
   
 - <b> Apresente as funcionalidades. </b><br>
-    Retornar a nota para a resposta fornecida e fornecer um dashboard com visualização estratégica.
+    - **Dashboard Estratégico (Gestão da Turma)**: Funcionalidades voltadas para a visão macro do desempenho, conforme descrito no objetivo do projeto.
+    
+        - Mapa de Calor de Desempenho: Visualização gráfica que identifica quais questões tiveram o maior índice de erro na turma.
+        - Métricas de Discrepância: Alertas que indicam se a correção está se tornando muito rígida ou muito branda ao longo do tempo (controle de fadiga do corretor).
+        - Relatório de Lacunas de Aprendizado: Identificação dos conceitos mais "esquecidos" pelos alunos nas respostas, auxiliando no planejamento de aulas de revisão.
+
+    - **Para o Aluno (Modo Simulado/Feedback):** Focado na persona do estudante que utiliza a ferramenta para preparação.
+    
+        - Feedback Instantâneo: Retorno da correção em tempo real após a submissão da resposta no modo de treino.
+        - Comparativo com a Referência: Exibição da resposta do aluno lado a lado com os tópicos esperados pela banca, evidenciando o que faltou ser citado.
+        - Histórico de Evolução: Gráfico que mostra a progressão da nota do aluno em diferentes simulados de questões dissertativas.
   
 - <b> Apresente as tecnologias e ferramentas computacionais utilizadas. </b><br>
     Python, Node, Bibliotecas de treinamento de NLP's.
