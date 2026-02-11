@@ -22,6 +22,9 @@ Roberto é um professor com mais de 20 anos de experiência. Ele é tecnologicam
 * Frustração com a subjetividade inerente à correção manual de centenas de textos.
 * Pressão por prazos curtos de entrega das notas.
 
+### 1. Jornada do Professor (Roberto)
+Com o objetivo de corrigir um grande volume de provas com agilidade e equidade, Roberto inicia sua interação fazendo o upload dos arquivos digitalizados no QuestIA. Enquanto o sistema processa e sugere as notas, ele pensa na responsabilidade de manter o mesmo critério para todos os alunos ("Preciso ser justo, mas o cansaço atrapalha"). Ao validar as correções assistidas pela IA, seu sentimento inicial de ansiedade pela sobrecarga de trabalho dá lugar ao alívio e controle, culminando em satisfação ao visualizar no dashboard que manteve a consistência das notas do início ao fim do lote.
+
 ### Mapa de Empatia: Roberto
 
 | O que VÊ? | O que OUVE? |
@@ -53,6 +56,9 @@ Beatriz está prestes a se formar e sabe que a nota do ENADE impacta a avaliaç�
 * Ansiedade de "dar branco" na hora da escrita técnica.
 * Falta de transparência nos critérios de correção das bancas examinadoras.
 * Demora excessiva para receber a correção de simulados tradicionais.
+
+### 2. Jornada do Aluno (Beatriz)
+Beatriz acessa o modo de simulado com o objetivo de validar seu conhecimento técnico e reduzir a insegurança pré-prova. Sua ação consiste em redigir e submeter uma resposta dissertativa, momento em que a tensão é alta e ela pensa: "Será que usei os termos técnicos que a banca exige?". Ao receber o feedback instantâneo comparando sua resposta com o espelho da banca, sua emoção transita da frustração inicial para a clareza, motivando-a a reescrever o texto para fixar o aprendizado.
 
 ### Mapa de Empatia: Beatriz
 
