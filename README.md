@@ -14,13 +14,13 @@ Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
     Interface para interação com um algoritmo de correção automática de questões dissertativas do ENADE.
   
 - <b> Apresente o objetivo. </b><br>
-    Diminuir o tempo e a discrepância entre critérios na correção das provas.
+    Diminuir o tempo e a discrepância entre critérios na correção das provas e auxiliar alunos que irão realizar o exame com feedback nos simulados.
   
 - <b> Apresente o usuário final. </b><br> 
-    Professores corretores do ENADE.
+    Professores corretores do ENADE e alunos se preparando para o exame.
   
 - <b> Apresente os principais benefícios para o usuários. </b><br>
-    Velocidade nas correções e maior assertividade.
+    Velocidade nas correções, maior assertividade e auxílio nos estudos.
   
 - <b> Apresente as funcionalidades. </b><br>
     - **Dashboard Estratégico (Gestão da Turma)**: Funcionalidades voltadas para a visão macro do desempenho, conforme descrito no objetivo do projeto.
@@ -39,7 +39,8 @@ Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
     Python, Node, Bibliotecas de treinamento de NLP's.
   
 - <b> Apresente o contexto de uso.</b><br>
-    Professores corrigindo as provas do ENADE em seus locais de trabalho.
+    Professores corrigindo as provas do ENADE em seus locais de trabalho.<br>
+    Alunos se preparando para o exame, estudando em suas casas ou ambientes escolares.
   
 - <b> O produto ou serviço prevê o desenvolvimento de interface? </b><br>
     Sim.
