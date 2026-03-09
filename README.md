@@ -1,6 +1,6 @@
 # Projeto de Interface Humano-Computador
 
-Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Plino Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
+Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Plinio Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
 
 Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **QuestIA** sob orientação do Professor **Leila Cristina Bergamasco** e desenvolvido pelos seguintes alunos:
 
