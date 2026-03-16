@@ -28,5 +28,89 @@
 | **3. Monitorar qualidade da correção** 1/2 | Plano: Verificar se há divergências nos critérios (3.1) ou conferir alertas de desempenho do corretor (3.2). |
 |  **3.1. Verificar Métricas de Discrepância** | Recomendação: Apresentar a média histórica de correção do ENADE como benchmark para o professor. |
 | **3.2. Analisar alertas de fadiga do corretor** | Problema: O excesso de correções manuais pode gerar discrepâncias. <br> Recomendação: Notificar o professor quando o tempo de correção por questão diminuir drasticamente, indicando possível fadiga. |
+---
 
+# GOMS
+## GOAL 0: Enviar Resposta e Obter Feedback
 
+### Goal 1: Responder à Questão
+#### Method 1.A: Seleção simulado/questão e Escrita <br>
+(SEL. RULE: o aluno ainda não escolheu um tema para responder)
+
+**Operators:**
+- **1.A.1:** Clicar em **"Selecionar simulado/questão"**.
+- **1.A.2:** Decidir qual ano ou tema do ENADE revisar.
+- **1.A.3:** Selecionar a questão desejada na lista.
+- **1.A.4:** Analisar o enunciado e o tempo sugerido.
+- **1.A.5:** Digitar a resposta dissertativa no campo de texto.
+- **1.A.6:** Clicar em **"Enviar resposta"**.
+
+---
+
+#### Method 1.B : Escrita Direta
+(SEL. RULE: a questão a ser respondida é a mesma que já está selecionada)
+
+**Operators:**
+- **1.B.1:** Raciocinar sobre os termos técnicos a serem usados.
+- **1.B.2:** Digitar a resposta dissertativa.
+- **1.B.3:** Clicar em **"Enviar resposta"**.
+
+---
+
+### 3. Goal: Avaliar Desempenho
+
+**Operators:**
+- **3.1:** Verificar a nota automática atribuída.
+- **3.2:** Ler o comparativo lado a lado entre a resposta enviada e o padrão da banca.
+- **3.3:** Identificar visualmente as lacunas de aprendizado apontadas pelo sistema.
+- **3.4:** Mover o scroll para visualizar o progresso no **"Histórico de Evolução"**.
+- **3.5:** Avaliar se é necessário revisar materiais de estudo sugeridos.
+
+---
+
+## GOAL 0: Analisar Correção e Desempenho da Turma
+
+### Goal 1: Autenticar no Sistema
+
+**Operators:**
+- **1.1:** Mover o cursor para o campo **"Usuário/E-mail"**.
+- **1.2:** Digitar as credenciais de professor.
+- **1.3:** Pressionar a tecla **Enter** ou clicar no botão **"Acessar"**.
+
+---
+
+### Goal 2: Analisar Desempenho Global <br>
+(SEL. RULE: O docente quer identificar falhas no aprendizado da turma)
+
+#### Method 2.A: Acessar Dashboard estratégico <br>
+(SEL. RULE: O docente deseja uma visualização geral do desempenho da turma)
+
+**Operators:**
+- **2.A.1:** Clicar no menu **"Dashboard Estratégico"**.
+- **2.A.2:** Avaliar o panorama geral das notas da turma.
+
+#### Method 2.B: Consultar Mapa de Calor
+(SEL. RULE: O docente deseja uma visão geral das questões com maior número de erros)
+
+**Operators:**
+- **2.B.1:** Clicar na aba **"Mapa de Calor"**.
+- **2.B.2:** Identificar quais questões possuem maior densidade de erros.
+
+---
+
+### Goal 3: Monitorar Qualidade da Correção <br>
+(SEL. RULE: O docente utiliza a ferramenta como auxiliar na correção das provas)
+
+#### Method 3.A: Visualizar métricas de discrepância <br>
+(SEL. RULE: o docente deseja visualizar o padrão ouro de resposta e a tolerância para avaliação)
+
+**Operators:**
+- **3.A.1:** Clicar na seção **"Qualidade e Auditoria"**.
+- **3.A.2:** Selecionar **"Métricas de Discrepância"**.
+- **3.A.3:** Avaliar se a IA está sendo excessivamente rígida ou branda.
+
+#### Method 3.B: Monitorar níveis de fadiga
+
+**Operators:**
+- **3.B.1:** Clicar no ícone de **"Alertas de Fadiga"**.
+- **3.B.2:** Verificar se o tempo de correção por questão indica cansaço do corretor.
