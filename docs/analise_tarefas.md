@@ -114,3 +114,18 @@
 **Operators:**
 - **3.B.1:** Clicar no ícone de **"Alertas de Fadiga"**.
 - **3.B.2:** Verificar se o tempo de correção por questão indica cansaço do corretor.
+  
+---
+
+# CTT
+### Legenda para diagrama
+<img width="187" height="308" alt="image" src="https://github.com/user-attachments/assets/567ee5a8-7adc-4738-976c-bb5e6d77bfc5" />
+
+---
+### Tarefa 1: Enviar resposta e receber feedback (Aluno)
+<img width="734" height="628" alt="image" src="https://github.com/user-attachments/assets/8b3988a6-b528-4fdc-9307-4f2597fa2929" />
+
+---
+### Tarefa 2: Avaliar correção e desempenho da turma (Professor)
+<img width="906" height="602" alt="image" src="https://github.com/user-attachments/assets/57edb778-bc64-4cdd-bc89-ab7a35055773" />
+
