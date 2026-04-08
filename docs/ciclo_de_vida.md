@@ -42,4 +42,3 @@
 | Satisfação do usuário | 20% | Atingir um alto índice de satisfação subjetiva, reduzindo a ansiedade do aluno e a fadiga do corretor humano. |
 | **Total** | **100%** |  |
 
-memorização, aprendizado, baixa taxa de erros, satisfação
