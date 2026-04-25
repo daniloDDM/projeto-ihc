@@ -82,32 +82,28 @@ O sistema exibe **indicadores de rigidez e alertas de fadiga [4, 7]** para que M
 
 ### Diagrama de consolidação para perfil aluno:
 
+<img width="3540" height="8192" alt="image" src="https://github.com/user-attachments/assets/b4939902-4d5e-4294-9fa8-9537bd9148e5" />
+
 ---
 
 ### Mapa de objetivos do perfil professor:
 <img width="865" height="562" alt="image" src="https://github.com/user-attachments/assets/258c7f52-20c3-4724-ab7c-2f5d64d0b783" />
 
 ### Diagrama de consolidação para perfil professor:
+<img width="2283" height="8191" alt="image" src="https://github.com/user-attachments/assets/bb34e20c-a202-427d-a0b5-ce59ac55f740" />
 
+---
 
 # **Esquema Conceitual de Signos**
 
-> **_NOTE:_**: fazer a junção das 3 tabelas abaixo em uma única
-
-| Credenciais (C) \- credenciais para acesso ao sistema |  |  |
-| :---- | :---- | :---- |
-| **signo** | **origem** | **observações** |
-| usuário | domínio |  |
-| senha | domínio |  |
-
-| Credenciais (C) \- credenciais para acesso ao sistema |  |  |  |
-| :---- | :---- | :---- | :---- |
-| **signo** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** |
-| usuário | texto | não pode ser nulo | — |
-| senha | texto | não pode ser nulo | — |
-
-| Credenciais (C) \- credenciais para acesso ao sistema |  |  |
-| :---- | :---- | :---- |
-| **signo** | **prevenção** | **recuperação** |
-| usuário | PP: campo obrigatório | RA |
-| senha | PP campo obrigatório  | RA |
+| Credenciais (C) \- credenciais para acesso ao sistema |  |  |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
+| Usuário | Domínio | Utilizado para identificação única do Aluno ou Professor. | Texto | Não pode ser nulo | - | PP: campo obrigatório | RA |
+| Senha | Domínio | Garante a privacidade e proteção dos dados conforme a LGPD. | Texto | Não pode ser nulo | - | PP: campo obrigatório | RA |
+| Nota estimada | Sistema (NLP) | Representa a avaliação automática baseada no modelo BERT. | Numérico | 0.0 a 10.0 | - | PP: Exibição apenas após processamento concluído. | RA: Opção de "Verificar Critérios". |
+| Comparativo Lado a Lado | Design | Exibe a resposta do aluno em paralelo aos tópicos da banca. | Visual/Texto | Leitura apenas | - | PP: Cores distintas para acerto (verde) e erro (vermelho). | RA: Destaque visual dos termos faltantes. |
+| Gráfico de Evolução | Domínio (Estatística) | Mostra a progressão da nota em diferentes simulados. | Gráfico | Temporal | - | PP: Escalas automáticas para evitar distorção. | RA: Filtros por período ou tema. |
+| Mapa de Calor | Domínio/Design | Identifica visualmente as questões com maior índice de erro na turma. | Gráfico (Cores) | Baseado em volume de erros | - | PP: Legenda de cores clara (Frio/Quente). | RA: Zoom ou filtro por questão específica. |
+| Métrica de Discrepância | Sistema | Indica se a IA está sendo muito rígida ou branda. | Percentual | 0% a 100% | 0% | PP: Alerta visual se ultrapassar 5%. | RA: Reajuste manual de critérios. |
+| Alerta de Fadiga | Design | Informa o professor sobre a perda de assertividade por cansaço. | Notificação/Ícone | Gatilho por tempo/comportamento | - | PP: Notificação não intrusiva em área de destaque. | RA: Opção de pausar sessão de correção. |
