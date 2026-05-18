@@ -1,6 +1,4 @@
-# 🔄 Ciclo de Vida de Engenharia de Usabilidade
-
-Este documento detalha os requisitos, restrições e metas de usabilidade que orientam o desenvolvimento do QuestIA.
+# Ciclo de Vida de Engenharia de Usabilidade
 
 ## 1. Características da Plataforma
 
@@ -30,10 +28,10 @@ Este documento detalha os requisitos, restrições e metas de usabilidade que or
 
 ### 3.2 Quantitativas (Critérios Mensuráveis)
 
-| Fator de Usabilidade | Meta Quantitativa (KPI) | Justificativa |
-| :--- | :--- | :--- |
-| **Eficiência** | Professores devem localizar a questão com pior desempenho em **menos de 45 segundos**. | Reduzir o tempo de análise macro da turma. |
-| **Facilidade de Aprendizado** | 90% dos alunos devem conseguir submeter o primeiro simulado **sem erros de interação**. | Interface intuitiva que dispense manuais. |
-| **Segurança (Erros)** | Máximo de **1 erro crítico** (ex: fechar sem salvar) por sessão de 1 hora. | Prevenir perda de trabalho devido à interface. |
-| **Memorização** | Usuários que retornam após 30 dias devem realizar a tarefa principal em **até 2 minutos**. | Interface consistente que suporte o uso sazonal. |
-| **Satisfação** | Média de pontuação no questionário SUS (System Usability Scale) **acima de 75**. | Garantir uma percepção de qualidade superior à concorrência. |
+| Fator de Usabilidade | Porcentagem | Meta Quantitativa  | Justificativa |
+| :--- | :--- | :--- | :--- |
+| **Eficiência** | 20% | Professores devem localizar a questão com pior desempenho em **menos de 45 segundos**. | Reduzir o tempo de análise macro da turma. |
+| **Facilidade de Aprendizado** | 20% | 90% dos alunos devem conseguir submeter o primeiro simulado **sem erros de interação**. | Interface intuitiva que dispense manuais. |
+| **Segurança (Erros)** | 20% | Máximo de **1 erro crítico** (ex: fechar sem salvar) por sessão de 1 hora. | Prevenir perda de trabalho devido à interface. |
+| **Memorização** | 20% | Usuários que retornam após 30 dias devem realizar a tarefa principal em **até 2 minutos**. | Interface consistente que suporte o uso sazonal. |
+| **Satisfação** | 20% | Média de pontuação no questionário SUS (System Usability Scale) **acima de 75**. | Garantir uma percepção de qualidade superior à concorrência. |
