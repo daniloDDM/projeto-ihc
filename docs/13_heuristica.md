@@ -1,59 +1,63 @@
-# 1) Avaliação de IHC através de inspeção HEURÍSTICA
+# 🔍 Avaliação de IHC através de Inspeção Heurística
 
-**Descrição da avaliação**
+Esta inspeção foi realizada pelos integrantes da equipe (Arthur e Danilo), cobrindo todas as telas principais do sistema QuestIA (Input, Feedback, Dashboard, Histórico).
 
-Avaliação heurística, definida por Nielsen e Molich (1994), é um método de avaliação de usabilidade onde um avaliador procura problemas de usabilidade numa interface com o usuário através da análise e interpretação de um conjunto de princípios ou heurísticas. Este método de avaliação é baseado no julgamento do avaliador.
+## 1. Referenciais de Avaliação
 
-**Tabela 1 - Conjunto de heurísticas de Nielsen (1994)**
-
+### Tabela 1 - Conjunto de heurísticas de Nielsen (1994)
 | ID | Heurística | Descrição |
 | :---: | :--- | :--- |
-| 1 | **Visibilidade do status do sistema** | O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. |
-| 2 | **Compatibilidade entre sistema e mundo real** | O sistema deve utilizar a linguagem do usuário, com palavras, frases e conceitos familiares para ele. Seguir convenções do mundo real, fazendo com que a informação apareça em uma ordem lógica e natural. |
-| 3 | **Controle e liberdade para o usuário** | Suporte a "saídas de emergência" (undo/redo) para quando usuários escolhem funções por engano. |
-| 4 | **Consistência e padrões** | Usuários não devem ter que adivinhar se diferentes palavras, situações ou ações significam a mesma coisa. |
-| 5 | **Prevenção de erros** | Melhor que uma boa mensagem de erro é um design que previne o problema de acontecer. |
-| 6 | **Reconhecimento em lugar de lembrança** | Minimizar a carga de memória do usuário tornando objetos, ações e opções visíveis. |
-| 7 | **Flexibilidade e eficiência de uso** | Aceleradores (atalhos) para usuários experientes, permitindo que o sistema atenda a ambos os perfis. |
-| 8 | **Projeto minimalista e estético** | Diálogos não devem conter informações irrelevantes ou raramente necessárias. |
-| 9 | **Auxiliar os usuários a reconhecer, diagnosticar e recuperar erros** | Mensagens de erro devem ser expressas em linguagem natural, indicar o problema e sugerir uma solução. |
-| 10 | **Ajuda e documentação** | Informações fáceis de encontrar, centradas na tarefa e com passos concretos. |
+| 1 | Visibilidade do status do sistema | Feedback constante sobre o que está acontecendo. |
+| 2 | Compatibilidade com o mundo real | Linguagem familiar e ordem lógica. |
+| 3 | Controle e liberdade do usuário | Saídas de emergência e desfazer/refazer. |
+| 4 | Consistência e padrões | Mesmas palavras/ações para as mesmas coisas. |
+| 5 | Prevenção de erros | Design que evita problemas. |
+| 6 | Reconhecimento em vez de lembrança | Objetos e ações visíveis. |
+| 7 | Flexibilidade e eficiência | Atalhos para usuários experientes. |
+| 8 | Projeto minimalista e estético | Apenas informações relevantes. |
+| 9 | Reconhecer e recuperar erros | Mensagens de erro em linguagem clara. |
+| 10 | Ajuda e documentação | Fácil de encontrar e centrada na tarefa. |
 
-**Tabela 2 - Grau de severidade dos problemas de usabilidade**
-
-| Grau | Tipo | Descrição |
-| :---: | :--- | :--- |
-| 0 | Sem importância | Não afeta a operação da interface. |
-| 1 | Cosmético | Não há necessidade imediata de solução. |
-| 2 | Simples | Problema de baixa prioridade (pode ser reparado). |
-| 3 | Grave | Problema de alta prioridade (deve ser reparado). |
-| 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
+### Tabela 2 - Escala de Severidade
+- **0 (Sem importância):** Não afeta a operação.
+- **1 (Cosmético):** Baixa prioridade estética.
+- **2 (Simples):** Problema de baixa prioridade funcional.
+- **3 (Grave):** Problema de alta prioridade.
+- **4 (Catastrófico):** Deve ser reparado imediatamente.
 
 ---
 
-## Relato de Violações Encontradas
+## 2. Consolidação das Violações Encontradas
 
-### Problema 1: Tamanho de fonte excessivo no feedback
-![Screenshot 2026-04-08 at 19 54 08](https://github.com/user-attachments/assets/d9354f38-24ba-4ab8-be63-841ce4c760b5)
+Abaixo, a tabela consolidada contendo as violações identificadas por ambos os avaliadores em todas as telas.
 
-| Heurística Violada | Grau de Severidade | Descrição do Problema | Sugestão de Melhoria |
-| :--- | :---: | :--- | :--- |
-| 8. Projeto minimalista e estético | 1 (Cosmético) | A fonte utilizada para o texto de feedback era excessivamente grande, causando poluição visual e exigindo rolagem desnecessária. | Reduzir o tamanho da tipografia para padrões de leitura web (16px a 18px). |
-
-### Problema 2: Falta de botão para cancelar submissão
-![Input de Respostas](https://github.com/user-attachments/assets/771b047a-863e-4883-ac0f-3fc40a71a518)
-
-| Heurística Violada | Grau de Severidade | Descrição do Problema | Sugestão de Melhoria |
-| :--- | :---: | :--- | :--- |
-| 3. Controle e liberdade para o usuário | 2 (Simples) | Uma vez que o aluno inicia a questão, não há um botão claro de "Desistir" ou "Voltar" sem submeter. | Incluir um botão de "Voltar" que salve o rascunho ou cancele a sessão. |
+| Avaliador | Tela | Heurística | Severidade | Problema Identificado | Sugestão de Melhoria |
+| :--- | :--- | :--- | :---: | :--- | :--- |
+| Arthur | Feedback | 8 (Estética) | 1 | Fonte excessivamente grande no corpo do feedback, causando poluição. | Reduzir tipografia para 16px-18px. |
+| Arthur | Input | 3 (Liberdade) | 2 | Falta de botão para cancelar ou voltar sem submeter. | Incluir botão "Cancelar" ou "Sair". |
+| Danilo | Dashboard | 6 (Memória) | 2 | Ícones de métricas sem rótulos textuais explicativos. | Adicionar legendas ou *tooltips* permanentes. |
+| Danilo | Histórico | 4 (Consistência) | 2 | Termos diferentes para a mesma ação ("Ver Resultado" e "Detalhes"). | Padronizar todos os botões de ação para "Ver Detalhes". |
+| Arthur | Login | 5 (Erros) | 3 | O sistema permite clicar em "Entrar" sem preencher os campos, gerando erro genérico. | Desabilitar botão enquanto campos estiverem vazios. |
+| Danilo | Feedback | 10 (Ajuda) | 2 | Não há explicação sobre como os critérios da IA foram aplicados na nota final. | Adicionar ícone de informação (?) ao lado de cada critério. |
 
 ---
 
-# 2) INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA - HEURÍSTICAS NÃO VIOLADAS
+## 3. Avaliação por Integrante (Detalhamento)
 
-**Exemplo de atendimento de heurística no QuestIA:**
+### Inspeção por Arthur Soares Sousa
+- **Telas Inspecionadas:** Login, Input de Resposta, Feedback.
+- **Destaque:** Identificou problemas críticos de controle de fluxo e prevenção de erros que impactam a segurança do aluno.
 
-### Heurística 1: Visibilidade do status do sistema
-![Feedback IA](https://github.com/user-attachments/assets/b618c376-c29f-4839-a8bb-43a7558e9d31)
+### Inspeção por Danilo David Miranda
+- **Telas Inspecionadas:** Dashboard do Professor, Histórico de Provas.
+- **Destaque:** Focou na consistência terminológica e na redução da carga de memória para usuários profissionais (professores).
 
-**Descrição:** Após clicar em "Solicitar Correção", o sistema exibe imediatamente um indicador de processamento ("Analisando sua resposta...") e, em seguida, apresenta a nota de forma clara. Isso garante que o usuário saiba que sua ação foi recebida e está sendo processada, cumprindo o requisito de feedback em tempo razoável.
+---
+
+## 4. Indicação de Boas Práticas (Heurísticas Não Violadas)
+
+### Exemplo 1: Visibilidade do status do sistema (Tela de Processamento)
+O sistema exibe um *spinner* e a mensagem "A IA está analisando sua resposta..." após a submissão. Isso cumpre a **Heurística 1**, mantendo o usuário informado sobre o tempo de espera.
+
+### Exemplo 2: Compatibilidade com o mundo real (Dashboard)
+O uso de um "Mapa de Calor" (verde para acertos, vermelho para erros) utiliza uma metáfora visual familiar para professores, atendendo à **Heurística 2**.

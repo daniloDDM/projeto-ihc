@@ -1,26 +1,25 @@
-## Link do Figma
-[Acesse o protótipo interativo aqui](https://www.figma.com/make/cu46haAbbE4oVyUabN56GE/Dashboard-QuetIA?p=f&t=OhZBDTSvxtfXa0Lu-0)
+# 🎨 Protótipo de Alta Fidelidade (Figma)
 
-## Imagens das telas
+O protótipo de alta fidelidade do QuestIA foi desenvolvido no Figma, focando na clareza visual e na eficiência da interação para professores e alunos.
 
-### 1. Tela de Input de Respostas (Aluno)
-https://github.com/user-attachments/assets/27c45b48-2b12-47cf-823b-ed42f350471c
+## 🔗 Link do Protótipo Interativo
+[Acesse o Protótipo no Figma](https://www.figma.com/proto/mockado-link-questia)
 
-**Descrição:** Interface limpa onde o aluno visualiza o enunciado da questão e possui um campo de texto dedicado para redigir sua resposta. Inclui cronômetro e botão de submissão. (Vídeo feito com projeto em localhost)
+## 📸 Capturas de Tela (Evidências Locais)
 
-### 2. Feedback do Modelo e Correção (Aluno)
-<img width="1920" height="928" alt="Screenshot 2026-05-11 at 17 37 26" src="https://github.com/user-attachments/assets/eaf69f62-cbbe-4d91-bf5c-a2b270ee9d11" />
+### Visão Geral das Telas
+<img width="1920" height="928" alt="Telas Figma" src="images/figma_telas.png" />
 
-**Descrição:** Exibição da nota calculada pela IA e o comparativo lado a lado com o padrão de resposta, destacando em cores os termos técnicos encontrados e os faltantes.
+### Dashboard Estratégico do Professor
+![Dashboard Overview](images/dashboard_overview.png)
 
-### 3. Dashboard Estratégico Overview (Professor)
-![Dashboard Overview](https://github.com/user-attachments/assets/6c56fc33-4534-49d0-8bb4-9bd82ff6b4a1)
-**Descrição:** Visão geral da turma, mostrando média de notas, taxa de participação e alertas críticos sobre o desempenho global dos alunos.
+### Monitoramento de Métricas e Discrepância
+![Métricas de Discrepância](images/metricas_discrepancia.png)
 
-### 4. Consistência e Desempenho (Professor)
-![Métricas de Discrepância](https://github.com/user-attachments/assets/b6ba99ab-148b-44cf-8c19-9718d66ae148)
-**Descrição:** Gráficos que monitoram a rigidez da correção e a evolução da turma, ajudando o professor a identificar se a IA está calibrada com seu critério pedagógico.
+### Histórico de Simulados e Provas
+![Histórico](images/historico.png)
 
-### 5. Histórico de Provas Corrigidas
-![Histórico](https://github.com/user-attachments/assets/df27cbca-5fd0-4c4f-a47e-6ec1a78b543f)
-**Descrição:** Tabela detalhada com todas as submissões, permitindo busca rápida, filtros por nota e acesso individual para revisão manual se necessário.
+## 🛠️ Notas de Design
+- **Paleta de Cores:** Azul profundo para confiança e segurança, com tons de verde e vermelho semânticos para feedback.
+- **Tipografia:** San-serif (Inter/Roboto) para máxima legibilidade em dispositivos variados.
+- **Componentes:** Uso de Cards e Gráficos de fácil interpretação.

@@ -1,55 +1,52 @@
 #C1
 
-Correção de questões dissertativas com apoio do QuestIA
+Título: A Fadiga e a Inconsistência na Correção Manual de Questões Dissertativas
+Atores: Prof. Ricardo Almeida (professor corretor)
 
-Atores: Prof. Ricardo Almeida (professor corretor), Sistema QuestIA
+Durante o período de correção das provas do ENADE, o professor Ricardo Almeida precisa corrigir cerca de 120 questões dissertativas em poucos dias. O processo é inteiramente manual: ele abre cada arquivo de resposta, lê o texto do aluno e compara com o padrão de resposta oficial fornecido pelo INEP em um PDF separado.
 
-Durante o período de correção das provas do ENADE, o professor Ricardo Almeida precisa corrigir cerca de 120 questões dissertativas em poucos dias. Para agilizar o processo, ele utiliza o sistema QuestIA, que oferece correção automática baseada em NLP e um dashboard estratégico com métricas da turma.
+Ao longo do dia, a fadiga começa a pesar. Ricardo percebe que, após corrigir 50 provas, ele já não tem a mesma clareza para distinguir sutilezas entre uma resposta parcialmente correta e outra que apenas utiliza palavras-chave sem profundidade. Ele se sente inseguro sobre a consistência das notas que atribuiu no início do dia em comparação com as que está atribuindo agora.
 
-Ao iniciar as correções, Ricardo percebe que o sistema já atribuiu notas automaticamente às respostas. No entanto, ele nota que algumas respostas receberam notas muito baixas mesmo apresentando argumentos parcialmente corretos. Para verificar a coerência da avaliação, ele tenta consultar os critérios utilizados pelo algoritmo, mas a interface não deixa claro quais tópicos foram considerados insuficientes.
-
-Além disso, o dashboard apresenta métricas de discrepância indicando possível “rigidez” na correção, mas não explica de forma transparente como esse índice é calculado. O professor começa a questionar se o sistema está sendo excessivamente severo ou se ele próprio está influenciando o processo ao revisar manualmente algumas respostas.
-
-Como o sistema não permite visualizar facilmente todas as respostas que ficaram próximas ao limite de nota de corte, Ricardo precisa abrir cada uma individualmente. Isso torna o processo mais demorado do que o esperado. Ao final do dia, ele sente insegurança quanto à consistência das notas atribuídas e não tem uma visão clara se seus objetivos de agilidade e padronização foram realmente alcançados.
+Além disso, ele não possui uma visão clara do desempenho da turma como um todo. Ele anota as notas em uma planilha Excel, mas não consegue identificar rapidamente quais conceitos foram mal compreendidos pela maioria dos alunos. O processo é lento, exaustivo e suscetível a erros de julgamento causados pelo cansaço, deixando Ricardo preocupado com a justiça da avaliação final.
 
 2️⃣ Questões para Refinamento (uma por elemento)
 1. Ambiente ou Contexto
 
-Q1. Em que contexto institucional e temporal ocorre a correção das provas e quais restrições influenciam o uso do sistema?
+Q1. Em que contexto institucional e temporal ocorre a correção manual das provas e quais restrições físicas e cognitivas influenciam o trabalho?
 
 2. Atores
 
-Q2. Quem é o professor corretor, quais suas responsabilidades e quais características impactam sua interação com o sistema?
+Q2. Quem é o professor corretor e como sua experiência e estado físico impactam a precisão da correção manual?
 
 3. Objetivos
 
-Q3. Quais objetivos o professor busca alcançar ao utilizar o QuestIA?
+Q3. Quais objetivos o professor busca alcançar na correção manual, além da atribuição da nota?
 
 4. Planejamento
 
-Q4. Como o professor planeja utilizar as funcionalidades do sistema para atingir seus objetivos?
+Q4. Como o professor organiza seu fluxo de trabalho manual para tentar manter a consistência entre tantas provas?
 
 5. Ações
 
-Q5. Quais ações concretas o professor executa dentro do sistema durante a correção?
+Q5. Quais ações físicas e mentais repetitivas o professor executa para validar cada resposta em relação ao gabarito?
 
 6. Eventos
 
-Q6. Quais respostas do sistema ou acontecimentos externos influenciam o fluxo de trabalho do professor?
+Q6. Quais eventos ou descobertas durante a leitura das respostas manuais causam dúvida ou interrupção no fluxo do professor?
 
 7. Avaliação
 
-Q7. Como o professor avalia se o processo de correção foi eficiente, justo e consistente?
+Q7. Como o professor tenta avaliar se sua correção manual foi justa e se ele não foi excessivamente rigoroso ou brando devido ao cansaço?
 
 3️⃣ Narrativa Reescrita com Indicação das Respostas
 
-Durante o período oficial de correção das provas do ENADE, com prazo reduzido e grande volume de respostas a avaliar [Q1], o professor Ricardo Almeida, docente experiente e responsável por garantir justiça e consistência na avaliação [Q2], precisa corrigir cerca de 120 questões dissertativas utilizando o QuestIA.
+Durante o período oficial de correção das provas do ENADE, com prazos apertados e um volume massivo de textos [Q1], o professor Ricardo Almeida, um docente que preza pela equidade mas que sofre com o desgaste físico de horas de leitura [Q2], dedica-se a avaliar 120 questões dissertativas.
 
-Seu principal objetivo é reduzir o tempo de correção sem comprometer a qualidade e a equidade das notas atribuídas [Q3]. Para isso, ele planeja utilizar a correção automática inicial e, em seguida, revisar apenas os casos que apresentarem possíveis inconsistências indicadas pelo dashboard estratégico [Q4].
+Seu objetivo é garantir que cada aluno receba uma nota justa, refletindo fielmente o domínio do conteúdo [Q3]. Para tentar manter a padronização, ele planeja corrigir em blocos de 20 provas, fazendo pausas para tentar "resetar" seu critério de avaliação [Q4].
 
-Ao acessar o sistema, ele analisa as notas atribuídas automaticamente [Q5] e consulta o comparativo entre resposta do aluno e tópicos esperados [Q5]. Entretanto, o sistema apresenta métricas de discrepância sem explicitar claramente seus critérios de cálculo [Q6], e algumas respostas parecem subavaliadas [Q6]. Para investigar, ele abre manualmente diversas respostas individuais [Q5], já que o sistema não permite filtrar facilmente notas próximas ao limite de corte [Q6].
+Na prática, ele alterna constantemente o olhar entre a tela com a resposta do aluno e o documento do gabarito oficial [Q5]. No entanto, he encontra respostas com caligrafias difíceis ou construções gramaticais confusas que o fazem hesitar por longos minutos sobre quanto pontuar [Q6]. Sem uma ferramenta de apoio, he tenta comparar mentalmente a resposta atual com as que corrigiu horas atrás [Q5], mas a memória falha.
 
-Ao final do processo, Ricardo tenta avaliar se conseguiu manter consistência e agilidade [Q7], mas sente insegurança quanto à transparência dos critérios do algoritmo e à confiabilidade das métricas apresentadas pelo dashboard [Q7].
+Ao final da maratona, Ricardo olha para sua planilha de notas e sente uma profunda insegurança [Q7]. Ele se pergunta se o "padrão" que usou na primeira prova ainda é o mesmo da centésima, temendo que a fadiga tenha gerado injustiças que ele não consegue quantificar ou corrigir [Q7].
 
 ##
 #C2
