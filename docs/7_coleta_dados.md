@@ -22,9 +22,13 @@ Toda a coleta de dados seguiu os princípios éticos de pesquisa com seres human
 
 ## 3. Técnicas Utilizadas
 
-### Técnica 1: Questionário (Alunos)
-**Objetivo:** Coletar dados quantitativos sobre o perfil e as dores dos estudantes em larga escala.
-**Protocolo de Aplicação:** Disponibilizado via Google Forms em grupos de alunos concluintes. Tempo estimado: 5 minutos.
+### Técnica 1: Questionário (Alunos e professores)
+- **Objetivo:** Coletar dados quantitativos sobre o perfil e as dores dos estudantes em larga escala.
+- **Motivo:** A escolha do método de questionários para a fase de identificação de necessidades do QuestIA justifica-se, principalemte, pela sua capacidade de coletar dados de uma grande quantidade de usuários de forma rápida, fácil e barata. Dado que o público-alvo do projeto (estudantes e professores do ENADE) é geograficamente disperso e possui perfis variados, este método permite obter uma visão em larga escala sobre as dores e expectativas do sistema.
+- **Protocolo de Aplicação:** Disponibilizado via Google Forms em grupos de alunos concluintes. Tempo estimado: 5 minutos.
+- **Links dos questionários**: 
+  - Questionário 1: Perfil do aluno: https://docs.google.com/forms/d/e/1FAIpQLSeM2lF9V7Jx3sbBCmQawAUP-P8aIxyYopJAHwXcEjlQQ8MRcg/viewform?usp=publish-editor
+  - Questionário 2: Perfil de Professor/Corretor: https://docs.google.com/forms/d/e/1FAIpQLScJRsmwaDpBX2naI5MjdMaFyYFBwjJNy-Eav-Sh8CfLYle-tg/viewform?usp=publish-editor
 
 #### Instrumento e Respostas Mockadas (Resumo):
 - **Pergunta:** Como você avalia o feedback que recebe atualmente em simulados dissertativos?
@@ -35,8 +39,8 @@ Toda a coleta de dados seguiu os princípios éticos de pesquisa com seres human
 ---
 
 ### Técnica 2: Entrevista Semiestruturada (Professores)
-**Objetivo:** Compreender em profundidade o fluxo mental e as dificuldades da correção manual.
-**Protocolo de Aplicação:** Entrevista remota via Teams/Zoom. Duração: 15 minutos. Roteiro com 5 perguntas abertas.
+- **Objetivo:** Compreender em profundidade o fluxo mental e as dificuldades da correção manual.
+- **Protocolo de Aplicação:** Entrevista remota via Teams/Zoom. Duração: 15 minutos. Roteiro com 5 perguntas abertas.
 
 #### Roteiro de Entrevista:
 1. Como é sua rotina quando recebe um lote de 100+ questões para corrigir?
@@ -45,21 +49,9 @@ Toda a coleta de dados seguiu os princípios éticos de pesquisa com seres human
 4. Qual a funcionalidade mais crítica que uma IA de auxílio deveria ter?
 5. Você confiaria em uma nota sugerida por IA? Em quais condições?
 
-#### Resultados Mockados:
+#### Resultados das entrevistas:
 - **Entrevistado P1:** "Depois da 40ª prova, começo a ler mais rápido e sinto que posso estar sendo injusto. Um alerta de 'rigidez' seria muito útil."
 - **Entrevistado P2:** "O maior problema é explicar o erro para o aluno. Perco muito tempo escrevendo o mesmo feedback."
-
----
-
-### Técnica 3: Investigação Contextual (Estudo de Campo)
-**Objetivo:** Observar o ambiente real e as interrupções durante a tarefa de correção.
-**Protocolo de Aplicação:** Observação silenciosa do professor Ricardo em seu ambiente de trabalho (escritório doméstico) durante 30 minutos de correção manual.
-
-#### Registro de Observação:
-- **Ambiente:** Mesa com dois monitores, café, diversos arquivos PDF abertos e uma planilha Excel.
-- **Ações:** O professor alterna entre o PDF da resposta e o PDF do gabarito oficial em média 4 vezes por questão.
-- **Interrupções:** Notificações de e-mail e cansaço visual (esfregar os olhos) após 20 minutos.
-- **Dificuldade observada:** O professor teve que voltar 5 provas atrás para conferir se uma resposta similar tinha recebido a mesma nota, gastando 3 minutos apenas nessa busca manual.
 
 ## 4. Conclusão da Coleta
 Os dados confirmam que a **transparência dos critérios** e a **redução da carga cognitiva** são as prioridades para o professor, enquanto o aluno busca **agilidade e clareza nos termos técnicos** exigidos pela banca.
