@@ -54,5 +54,3 @@ Esta cena foca na supervisão das correções e saúde do docente.
 
 *   **Texto Insuficiente:** Se o aluno envia uma resposta muito curta, o sistema não apenas dá nota baixa, mas sugere: "Sua resposta parece incompleta. Tente elaborar mais sobre [Termo X]".
 *   **Falha de NLP:** Se o algoritmo não consegue processar um sinônimo novo, o professor tem o poder de "Ensinar o Sistema", validando aquele termo para futuras correções.
-
-

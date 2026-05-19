@@ -128,4 +128,3 @@
 ---
 ### Tarefa 2: Avaliar correção e desempenho da turma (Professor)
 <img width="906" height="602" alt="image" src="https://github.com/user-attachments/assets/57edb778-bc64-4cdd-bc89-ab7a35055773" />
-

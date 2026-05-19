@@ -7,7 +7,7 @@ O planejamento da avaliação do QuestIA segue o framework DECIDE para garantir 
 | **D** | **Determine** | Determinar os objetivos da avaliação: Validar se o feedback da IA é compreensível para o aluno e se o dashboard estratégico reduz a carga mental do professor ao identificar lacunas de aprendizado. |
 | **E** | **Explore** | Explorar as perguntas a serem respondidas: O aluno consegue identificar o termo técnico faltante no feedback? O professor consegue localizar a questão com pior desempenho em menos de 1 minuto? A interface de fadiga é útil ou intrusiva? |
 | **C** | **Choose** | Escolher os métodos de avaliação: Inspeção Heurística (pelo time de design) e Teste de Usabilidade por Observação (com usuários reais). |
-| **I** | **Identify** | Identificar questões práticas: Seleção de 3-5 alunos de TI e 2 professores corretores. O equipamento será o protótipo de alta fidelidade no Figma acessado via Desktop/Laptop. |
+| **I** | **Identify** | Identificar questões práticas: Seleção de 2 alunos de TI e 2 professores corretores. O equipamento será o protótipo de alta fidelidade no Figma acessado via Desktop/Laptop. |
 | **D** | **Decide** | Decidir questões éticas: Aplicação do Termo de Consentimento Livre e Esclarecido (TCLE), garantindo o anonimato dos dados e o direito de desistência a qualquer momento. |
 | **E** | **Evaluate** | Avaliar, interpretar e apresentar os dados: A análise e produção dos resultados precisam considerar o tempo de conclusão das tarefas, a taxa de sucesso e as sugestões qualitativas de melhoria visual e funcional. |
 
