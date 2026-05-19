@@ -51,11 +51,7 @@ graph TD
 *   **Sugestão:** "Gostaria de poder filtrar por data para ver a evolução da turma na semana."
 *   **Satisfação:** 5/5.
 
-## 6. Vídeos e Respostas
-- **Links de Gravação:** [Link Simulado 1](https://youtube.com/link_mockado_1), [Link Simulado 2](https://youtube.com/link_mockado_2)
-- **Formulário de Respostas:** [Link Google Forms Resultados](https://forms.gle/link_mockado_resultados)
-
-## 7. Conclusão e Recomendações de Redesign
+## 6. Conclusão e Recomendações de Redesign
 Com base na observação, as seguintes alterações foram priorizadas:
 1. **Destaque no Botão de Envio:** Aumentar o contraste e o tamanho do botão primário para evitar a hesitação vista no U3.
 2. **Ajuste de Tipografia:** Aumentar a fonte do corpo de texto na visualização de feedback (atendendo U2 e U3).
